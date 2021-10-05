@@ -2,6 +2,6 @@
 
 ##Autores:
 ***
-Anderson Monsalve Buriticá
-Daniel Sánchez Sepulveda
-David Zaraza Toro
+*Anderson Monsalve Buriticá
+*Daniel Sánchez Sepulveda
+*David Zaraza Toro
