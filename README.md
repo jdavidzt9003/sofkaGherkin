@@ -1,6 +1,6 @@
 # sofkaGherkin
 
-#Autores:
+##Autores:
 ***
 Anderson Monsalve Buriticá
 Daniel Sánchez Sepulveda
