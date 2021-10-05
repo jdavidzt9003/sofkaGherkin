@@ -19,19 +19,19 @@ Feature: como cliente del banco
       | jesus.zaraza | Abc123*  | 569835 |
 
 
-    #Author: daniel.sanchezs@sofka.com.co
-#Fecha: 05/10/2021
+#Author: daniel.sanchezs@sofka.com.co
+# Fecha: 05/10/2021
 
 Feature: Como persona natural quiero simular una inversion virtual con
   Bancolombia
 #Url de guia:https://www.grupobancolombia.com/personas/productos-servicios/inversiones/cdts/inversion-virtual/simulador-inversion-virtual
 #La idea es simular una inversion virtual bajo ciertos parametros
-  #El monto debe de ser >= 500000,
-  #El monto debe de ser <= 10000000
-  #--------------------------------
-  #Los dias deben de ser >=30,
-  #Los dias deben de ser <=899
-  #
+# El monto debe de ser >= 500000,
+# El monto debe de ser <= 10000000
+# --------------------------------
+# Los dias deben de ser >=30,
+# Los dias deben de ser <=899
+
   Scenario Outline: Persona Natural solicita inversion de manera exitosa
 
     Given Estoy en la pagina de bancolombia
