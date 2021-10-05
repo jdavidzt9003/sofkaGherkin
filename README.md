@@ -1,9 +1,9 @@
 # sofkaGherkin
-
-Autores:
 ***
-Anderson Monsalve Buriticá
+### Autores:
 
-Daniel Sánchez Sepulveda
+* Anderson Monsalve Buriticá
 
-David Zaraza Toro
+* Daniel Sánchez Sepulveda
+
+* David Zaraza Toro
