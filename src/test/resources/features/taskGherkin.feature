@@ -9,6 +9,14 @@ Feature: como cliente del banco
     When diligencia el formulario de registro
     Then el portal web le arroja el mensaje de solicitud exitosa
 
+  Scenario Outline: Solicitud de credito hipotecario para un usuario negativo
+    Given el usuario ingresa al portal web personas del banco con <user>, <password> y <token>
+    When  diligencia el formulario de registro
+    Then el portal arroja un mensaje alerta indicando usuario con reporte negativo
+
+    Examples:
+      | user         | password | token  |
+      | jesus.zaraza | Abc123*  | 569835 |
 
 
     #Author: daniel.sanchezs@sofka.com.co
