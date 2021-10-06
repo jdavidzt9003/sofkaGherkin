@@ -60,3 +60,20 @@ Feature: Como persona natural quiero simular una inversion virtual con
       | Monto      | Dias  | Caso de Prueba         |
       | "500000"   | "900" | "3 Dias no permitido"  |
       | "20000000" | "899" | "4 Monto no permitido" |
+
+
+# Anderson Monsalve Buritica
+
+Feature: Como asesor del banco, quiero verificar la solicitud de prestamos a una persona natural
+
+  Scenario: Asesor aprueba solicitud de prestamo
+    Given El asesor ingresa al portal web de solicitudes de prestamos
+    When aprueba uno a uno los campos requeridos
+    Then La solicitud de prestamo queda aprobado
+    And El portal notifica a la persona natural de la aprobación
+
+  Scenario: Asersor rechaza solicitud por informacion incorrecta
+    Given El asesor ingresa al portal web de solicitudes de prestamos
+    When  Valida los campos y se da cuenta que hay uno con informacion incorrecta
+    Then La solicitud de prestamo es rechazada
+    And  Se le notifica al usuario
